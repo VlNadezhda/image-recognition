@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-    cv::Mat im_rgb= cv::imread("/home/nadezhda/Документы/MyPractic/1/lena.jpg");
+    cv::Mat im_rgb= cv::imread("/home/nadezhda/Документы/MyPractic/1/ll.jpg");
 
     if (im_rgb.empty()) {
         cout << "Error" << endl;
